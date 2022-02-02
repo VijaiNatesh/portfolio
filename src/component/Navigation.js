@@ -14,6 +14,7 @@ function Navigation() {
                                 <Nav.Link className={styles.navButton} href="/about">About</Nav.Link>
                                 <Nav.Link className={styles.navButton} href="/skills">Skills</Nav.Link>
                                 <Nav.Link className={styles.navButton} href="/projects">Projects</Nav.Link>
+                                <Nav.Link className={styles.navButton} href="/contact">Contact</Nav.Link>                                
                             </Nav>
                         </Container>
                     </Navbar>
