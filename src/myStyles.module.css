@@ -37,7 +37,7 @@
 }
 .image{
     float: right;
-    height: 500px;
+    height: 250px;
     width: 500px;
 }
 .skillsDisplay{
@@ -67,7 +67,13 @@
 .projectLink{
     font-size: 15px;
 }
-.contactContent{
-    font-size: 30px;
+.contactDisplay{   
+    margin: 20px;
+    text-align: center;  
+}
+.contact{
+    width: 35px;
+    height: 35px;
+    padding: 70px;     
 }
 

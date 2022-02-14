@@ -5,7 +5,6 @@ import Navigation from './component/Navigation';
 import Skills from './component/Skills';
 import Projects from './component/Projects';
 import Home from './component/Home';
-import Contact from './component/Contact';
 
 function App() {
   return (
@@ -16,8 +15,7 @@ function App() {
      <Route path="/" element = {<Home/>} />
        <Route path="/about" element = {<About/>} />
        <Route path="/skills" element = {<Skills/>} />
-       <Route path="/projects" element = {<Projects/>} />
-       <Route path="/contact" element = {<Contact/>} />       
+       <Route path="/projects" element = {<Projects/>} />      
        </Routes>
      </BrowserRouter>
     </div>
