@@ -40,13 +40,28 @@
     height: 250px;
     width: 500px;
 }
-.skillsDisplay{
-    margin: 50px;    
-}
-.list{
+.listDisplay{
     margin: 20px;
+    display: flex;
+    align-content: space-around;
+}
+.list{   
+    margin-left: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 30px;   
+    border: 1px solid blue;  
+    text-align: justify;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 5px;   
+    background-color: lightblue;       
+}
+.skillimage{
+    width: 600px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
 }
 .projectDisplay{
     display: flex;
