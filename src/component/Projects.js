@@ -45,14 +45,14 @@ user will be able to reset their password.
                     <a className={styles.projectLink} href="https://vj-ecommerce.netlify.app/" target="_blank" rel="noreferrer">Visit</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/ecommerce-frontend" target="_blank" rel="noreferrer">Frontend Code</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/ecommerce-backend" target="_blank" rel="noreferrer">Backend Code</a></h2>
-                <p className={styles.projectDes}> <li>App was developed with MongoDB, Express, React and Node.
+                <p className={styles.projectDes}> App was developed with MongoDB, Express, React and Node.
                                                      User Authentication.
                                                     User will be able to add products of their wish to Cart.
                                                      User will be able to place order from Cart.
                                                     Products in Cart can be deleted.
                                                     Number of products ordered can be edit in the Cart page.
                                                     In Order Page, User will be able to see the details of products and price of the Orders.
-                                                    </li>
+                                                    
                 </p>
             </div>
         </>
