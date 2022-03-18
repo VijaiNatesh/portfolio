@@ -15,7 +15,7 @@ function Projects() {
 This app helps you to manage and grow your business.
                                            It was developed with <b>MongoDB, Express, React and Node</b>.
                                              It handles the <b>Create, Read, Update and Delete Operations</b> of purchases and sales.
-                                             User Authentication in Inventory Bill app keeps unauthorized users from accessing sensitive information.</p>
+                                             User Authentication in Inventory Bill app keeps unauthorized users away from accessing sensitive information.</p>
             </div>
             <div className={styles.projectDisplay}>
                 <h2 className={styles.projectTitle}>Student Mentor Assigning App <br />
