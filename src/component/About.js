@@ -5,7 +5,7 @@ import image from'../../src/NV.jpg'
 
 function About() {
     return (
-
+        <div className = {styles.aboutBackground}>
         <div className={styles.aboutDisplay}>
             <div>
                 <p className={styles.aboutContentHeader}>Hey, I'm Vijayakumar</p>
@@ -21,7 +21,7 @@ function About() {
             </div>
             <img className={styles.image} src={image} alt="Vijayakumar" />
         </div>
-
+    </div>
     )
 }
 

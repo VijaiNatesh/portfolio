@@ -2,15 +2,18 @@
     text-align: center;  
     padding-top: 50px; 
 }
+
 .navBar{      
     padding: 30px;    
     float: right;
+    background-color: slategrey;
 }
 .navName{
     text-align: left;
     text-justify: auto;
     padding: 30px;
     font-family: cursive;
+    color: red;
 }
 .navButton{       
     font-size: 20px;
@@ -19,9 +22,13 @@
     color: black;
     text-decoration: none;   
 }
+
 .homeContent{
     margin: 70px;
     font-size: 50px;
+}
+.aboutBackground{
+    background-color: palegreen;
 }
 .aboutDisplay{
     display: flex;
@@ -39,6 +46,11 @@
     float: right;
     height: 250px;
     width: 500px;
+    border-radius: 55%;
+    padding: 20px;
+}
+.skillBackground{
+    background-color: navajowhite;
 }
 .listDisplay{
     margin: 20px;
@@ -62,6 +74,9 @@
     height: 100px;
     margin-left: 100px;
     margin-top: 150px;
+}
+.projectBackground{
+    background-color: seagreen;
 }
 .projectDisplay{
     display: flex;

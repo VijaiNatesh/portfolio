@@ -3,11 +3,11 @@ import styles from '../../src/myStyles.module.css'
 
 function Projects() {
     return (
-        <>
+        <div className = {styles.projectBackground}>
             <h2 className={styles.projectHeader}>Projects</h2>
             <div className={styles.projectDisplay}>
                 <h2 className={styles.projectTitle}>Inventory Bill App <br />
-                    <a className={styles.projectLink} href="https://inventoryvijainatesh.netlify.app/" target="_blank" rel="noreferrer">Visit</a><br />
+                    <a className={styles.projectLink} href="https://inventoryvijainatesh.netlify.app/" target="_blank" rel="noreferrer">See Live</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/inventory-frontend/tree/main/frontend" target="_blank" rel="noreferrer">Frontend Code</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/inventory-backend/tree/main/backend" target="_blank" rel="noreferrer">Backend Code</a></h2>
                 <p className={styles.projectDes}>Inventory Bill App is a <b> free billing app</b>.
@@ -19,7 +19,7 @@ This app helps you to manage and grow your business.
             </div>
             <div className={styles.projectDisplay}>
                 <h2 className={styles.projectTitle}>Student Mentor Assigning App <br />
-                    <a className={styles.projectLink} href="https://assign-mentor-vj.netlify.app/" target="_blank" rel="noreferrer">Visit</a><br />
+                    <a className={styles.projectLink} href="https://assign-mentor-vj.netlify.app/" target="_blank" rel="noreferrer">See Live</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/assign-mentor-frontend" target="_blank" rel="noreferrer">Frontend Code</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/assign-mentor-backend" target="_blank" rel="noreferrer">Backend Code</a></h2>
                 <p className={styles.projectDes}>Student Mentor Assigning is a <b> free MERN Stack App</b>.
@@ -31,7 +31,7 @@ This app helps you to manage and grow your business.
             </div>
             <div className={styles.projectDisplay}>
                 <h2 className={styles.projectTitle}>Reset Password <br />
-                    <a className={styles.projectLink} href="https://password-reset-vj.netlify.app/" target="_blank" rel="noreferrer">Visit</a><br />
+                    <a className={styles.projectLink} href="https://password-reset-vj.netlify.app/" target="_blank" rel="noreferrer">See Live</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/password-reset-frontend" target="_blank" rel="noreferrer">Frontend Code</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/password-reset-backend" target="_blank" rel="noreferrer">Backend Code</a></h2>
                 <p className={styles.projectDes}> Reset Password was developed with <b>MERN stack</b>.
@@ -42,7 +42,7 @@ user will be able to reset their password.
             </div>
             <div className={styles.projectDisplay}>
                 <h2 className={styles.projectTitle}>E-Commerce App<br />
-                    <a className={styles.projectLink} href="https://vj-ecommerce.netlify.app/" target="_blank" rel="noreferrer">Visit</a><br />
+                    <a className={styles.projectLink} href="https://vj-ecommerce.netlify.app/" target="_blank" rel="noreferrer">See Live</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/ecommerce-frontend" target="_blank" rel="noreferrer">Frontend Code</a><br />
                     <a className={styles.projectLink} href="https://github.com/VijaiNatesh/ecommerce-backend" target="_blank" rel="noreferrer">Backend Code</a></h2>
                 <p className={styles.projectDes}> App was developed with MongoDB, Express, React and Node.
@@ -50,12 +50,12 @@ user will be able to reset their password.
                                                     User will be able to add products of their wish to Cart.
                                                      User will be able to place order from Cart.
                                                     Products in Cart can be deleted.
-                                                    Number of products ordered can be edit in the Cart page.
+                                                    Number of products ordered can be edited in the Cart page.
                                                     In Order Page, User will be able to see the details of products and price of the Orders.
                                                     
                 </p>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -6,7 +6,7 @@ import mernimage from "../../src/mernimage.jpg"
 function Skills() {
     return (
 
-        <div  >
+        <div className ={styles.skillBackground}  >
             <div className={styles.listDisplay}>
                 <p className={styles.list}>HTML</p>
                 <p className={styles.list}>CSS</p>
