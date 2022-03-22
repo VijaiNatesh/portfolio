@@ -1,6 +1,5 @@
 .container{
-    max-width: 100%;
-    align-content: center;
+    max-width: 100%; 
 }
 .myName{
     color: teal;
@@ -17,11 +16,11 @@
     }
 }
 .homeIconDisplay{
-    display: inline;   
+    display: flex;   
 }
 @media screen and (max-width: 480px){
     .homeIconDisplay{
-        display: inline; 
+        display: flex; 
     }
 }
 .aboutBackground{
