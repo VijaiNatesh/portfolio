@@ -32,8 +32,7 @@
     color: thistle;
 }
 .aboutDisplay{
-    column-count: 3;
-    column-gap: 10%;
+    column-count: 1;    
 }
 .aboutContent{    
     font-size: 20px;   
@@ -42,7 +41,7 @@
 }
 .myImage{          
     border-radius: 30%;
-    margin-left: 10%;   
+    margin-left: 40%;   
 }
 @media screen and (max-width: 480px) {
     .aboutBackground{
@@ -53,8 +52,7 @@
         color: thistle;
     }
     .aboutDisplay{
-        column-count: 3;
-        column-gap: 10%;
+        column-count: 1;        
     }
     .aboutContent{    
         font-size: 14px;   
@@ -63,7 +61,7 @@
     }
     .myImage{          
         border-radius: 30%;
-        margin-left: 10%;   
+        margin-left: 40%;   
     }
 }
 .skillBackground{

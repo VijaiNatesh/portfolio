@@ -7,8 +7,9 @@ function About() {
     return (
         <div className={styles.aboutBackground}>
             <h1 className={styles.aboutHead}>ABOUT ME</h1>
+            <img className={styles.myImage} src={image} alt="Vijayakumar" />
             <div className={styles.aboutDisplay}>
-                <img className={styles.myImage} src={image} alt="Vijayakumar" />
+             
                 <div>                    
                     <p className={styles.aboutContent}>I'm Full Stack Developer based in Namakkal, Tamilnadu.
            Passionate about building web applications that are performant, accessible and have a great user experience.</p>
