@@ -1,29 +1,9 @@
 .container{
-    padding: 50px;
+    max-width: 100%;
+    align-content: center;
 }
-.compAlign{
-    text-align: center;  
-    padding-top: 50px; 
-}
-
-.navBar{      
-    padding: 30px;    
-    float: right;
-    background-color: slategrey;
-}
-.navName{
-    text-align: left;
-    text-justify: auto;
-    padding: 30px;
-    font-family: cursive;
-    color: red;
-}
-.navButton{       
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;   
-    margin: 30px;
-    color: black;
-    text-decoration: none;   
+.myName{
+    color: teal;
 }
 
 .homeContent{
@@ -37,38 +17,57 @@
     }
 }
 .homeIconDisplay{
-    display: flex;
-    align-content: center;
-
+    display: inline; 
+   padding: 40%;    
 }
 @media screen and (max-width: 480px){
     .homeIconDisplay{
-        display: flex;
-        align-content: center;
+        display: inline; 
+        padding: 40%; 
+
     }
 }
 .aboutBackground{
-    background-color: palegreen;
+    background-color: teal;
+}
+.aboutHead{
+    text-align: center;
+    color: thistle;
 }
 .aboutDisplay{
-    display: flex;
+    column-count: 3;
+    column-gap: 10%;
 }
-.aboutContentHeader{
-    margin: 70px;
-    font-size: 50px;
-}
-.aboutContent{
-    margin-left: 70px;
-    font-size: 20px;
-    padding: 10px;
+.aboutContent{    
+    font-size: 20px;   
     text-align: justify;
+    color: honeydew;
 }
-.image{
-    float: right;
-    height: 250px;
-    width: 500px;
-    border-radius: 55%;
-    padding: 20px;
+.myImage{          
+    border-radius: 30%;
+    margin-left: 10%;   
+}
+@media screen and (max-width: 480px) {
+    .aboutBackground{
+        background-color: teal;
+    }
+    .aboutHead{
+        text-align: center;
+        color: thistle;
+    }
+    .aboutDisplay{
+        column-count: 3;
+        column-gap: 10%;
+    }
+    .aboutContent{    
+        font-size: 14px;   
+        text-align: justify;
+        color: honeydew;
+    }
+    .myImage{          
+        border-radius: 30%;
+        margin-left: 10%;   
+    }
 }
 .skillBackground{
     background-color: navajowhite;
