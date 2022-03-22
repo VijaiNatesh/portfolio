@@ -6,6 +6,7 @@ import image from'../../src/NV.jpg'
 function About() {
     return (
         <div className = {styles.aboutBackground}>
+        <h1>About</h1>
         <div className={styles.aboutDisplay}>
             <div>
                 <p className={styles.aboutContentHeader}>Hey, I'm Vijayakumar</p>

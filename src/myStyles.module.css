@@ -1,3 +1,6 @@
+.container{
+    padding: 50px;
+}
 .compAlign{
     text-align: center;  
     padding-top: 50px; 
@@ -24,8 +27,14 @@
 }
 
 .homeContent{
-    margin: 70px;
-    font-size: 50px;
+  text-align: center;
+  font-size: 34px;
+}
+@media screen and (max-width: 480px){
+    .homeContent {
+        text-align: center;
+        font-size: 16px;
+    }
 }
 .aboutBackground{
     background-color: palegreen;
