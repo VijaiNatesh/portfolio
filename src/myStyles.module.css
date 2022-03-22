@@ -17,8 +17,7 @@
     }
 }
 .homeIconDisplay{
-    display: inline; 
-   padding: 40%;    
+    display: inline;   
 }
 @media screen and (max-width: 480px){
     .homeIconDisplay{
