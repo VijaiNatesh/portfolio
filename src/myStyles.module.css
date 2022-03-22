@@ -36,6 +36,14 @@
         font-size: 16px;
     }
 }
+.homeIconDisplay{
+    display: flex;
+}
+@media screen and (max-width: 480px){
+    .homeIconDisplay{
+        display: flex;
+    }
+}
 .aboutBackground{
     background-color: palegreen;
 }
