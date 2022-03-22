@@ -2,8 +2,6 @@ import React from 'react'
 import styles from '../../src/myStyles.module.css'
 import gitimage from '../../src/Gitimage.png'
 import resume from '../../src/Resume.jpg'
-import Projects from './Projects';
-import Skills from './Skills'
 import About from './About'
 
 
@@ -20,9 +18,7 @@ function Home() {
                 <a href="https://drive.google.com/file/d/1kcZ9Uc8enjhkScQEE2PZmeUjzPuwL9t1/view?usp=sharing" target="_blank" title="Resume" rel="noreferrer"> <img className={styles.contact} src={resume} alt="resume" /> </a>
         
             </div>
-            <About />
-            {/* <Skills />
-            <Projects/> */}
+            <About />           
         </div>
 
     )
