@@ -22,8 +22,6 @@
 @media screen and (max-width: 480px){
     .homeIconDisplay{
         display: inline; 
-        padding: 40%; 
-
     }
 }
 .aboutBackground{
