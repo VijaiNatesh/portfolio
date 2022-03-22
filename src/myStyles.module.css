@@ -38,10 +38,13 @@
 }
 .homeIconDisplay{
     display: flex;
+    align-content: center;
+
 }
 @media screen and (max-width: 480px){
     .homeIconDisplay{
         display: flex;
+        align-content: center;
     }
 }
 .aboutBackground{
