@@ -94,12 +94,15 @@
         color: honeydew;
         text-align: center;
         text-decoration: underline;
-    }   
+    }  
+    .listDisplay{
+        margin: 4px;
+        display: flex;        
+    } 
     .list{         
         font-size: 7px;   
         color: wheat;
-        border: 1px solid wheat;  
-        width: 480px;       
+        border: 1px solid wheat;          
     }
 }
 
