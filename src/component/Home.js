@@ -4,6 +4,7 @@ import gitimage from '../../src/Gitimage.png'
 import resume from '../../src/Resume.jpg'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
 
 
 function Home() {
@@ -20,7 +21,8 @@ function Home() {
         
             </div>
             <About />     
-            <Skills />      
+            <Skills />   
+            <Projects />   
         </div>
 
     )
