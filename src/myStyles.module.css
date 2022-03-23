@@ -96,8 +96,7 @@
         text-align: center;
         text-decoration: underline;
     }
-    .listDisplay{
-        margin: 4px;
+    .listDisplay{       
         display: flex;      
     }
     .list{          
