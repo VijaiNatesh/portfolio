@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from '../../src/myStyles.module.css'
-import mernimage from "../../src/mernimage.jpg"
+
 
 
 function Skills() {
     return (
 
         <div className ={styles.skillBackground}  >
+        <h1 className = {styles.skillsHead}>Skills</h1>
             <div className={styles.listDisplay}>
                 <p className={styles.list}>HTML</p>
                 <p className={styles.list}>CSS</p>
@@ -20,10 +21,8 @@ function Skills() {
             </div>
             <div className={styles.listDisplay}>
                 <p className={styles.list}>Git</p>
-                <p className={styles.list}>MySQL</p>
-                <img className={styles.skillimage} src={mernimage} alt="mern" />
-            </div>
-          
+                <p className={styles.list}>MySQL</p>             
+            </div>          
         </div>
     )
 }

@@ -64,7 +64,12 @@
     }
 }
 .skillBackground{
-    background-color: navajowhite;
+    background-color: teal;
+}
+.skillsHead{
+    color: honeydew;
+    text-align: center;
+    text-decoration: underline;
 }
 .listDisplay{
     margin: 20px;
@@ -72,22 +77,41 @@
     align-content: space-around;
 }
 .list{   
-    margin-left: 150px;
+    margin-left: 150px;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;   
-    border: 1px solid blue;  
+    border: 5px solid wheat;  
     text-align: justify;
     width: fit-content;
     height: fit-content;
-    border-radius: 20px;
-    padding: 5px;   
-    background-color: lightblue;       
+    border-radius: 50px;
+    padding: 10px;      
 }
-.skillimage{
-    width: 600px;
-    height: 100px;
-    margin-left: 100px;
-    margin-top: 150px;
+@media screen and(max-width: 480px){
+    .skillBackground{
+        background-color: teal;
+    }
+    .skillsHead{
+        color: honeydew;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .listDisplay{
+        margin: 4px;
+        display: flex;
+        align-content: space-around;
+    }
+    .list{   
+        margin-left: 38px;  
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 8px;   
+        border: 1px solid wheat;  
+        text-align: justify;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 13px;
+        padding: 3px;      
+    }
 }
 .projectBackground{
     background-color: seagreen;

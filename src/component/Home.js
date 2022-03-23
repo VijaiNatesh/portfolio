@@ -3,6 +3,7 @@ import styles from '../../src/myStyles.module.css'
 import gitimage from '../../src/Gitimage.png'
 import resume from '../../src/Resume.jpg'
 import About from './About'
+import Skills from './Skills'
 
 
 function Home() {
@@ -14,11 +15,12 @@ function Home() {
             </div>
 
             <div className={styles.homeIconDisplay}>
-                <a href="https://github.com/VijaiNatesh" target="_blank" title="GitHub" rel="noreferrer"> <img className={styles.contact} src={gitimage} alt="GitHub" /> </a>
-                <a href="https://drive.google.com/file/d/1kcZ9Uc8enjhkScQEE2PZmeUjzPuwL9t1/view?usp=sharing" target="_blank" title="Resume" rel="noreferrer"> <img className={styles.contact} src={resume} alt="resume" /> </a>
+                <a href="https://github.com/VijaiNatesh" target="_blank" title="Click to view my GitHub account" rel="noreferrer"><img className={styles.contact} src={gitimage} alt="GitHub" /> </a>
+                <a href="https://drive.google.com/file/d/1kcZ9Uc8enjhkScQEE2PZmeUjzPuwL9t1/view?usp=sharing" target="_blank" title="Click to view my Resume" rel="noreferrer"> <img className={styles.contact} src={resume} alt="resume" /> </a>
         
             </div>
-            <About />           
+            <About />     
+            <Skills />      
         </div>
 
     )
