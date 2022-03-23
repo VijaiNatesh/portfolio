@@ -63,6 +63,20 @@
         margin-left: 30%;   
     }
 }
+@media screen and(max-width: 480px){
+    .skillBackground{
+        background-color: teal;
+    }
+    .skillsHead{
+        color: honeydew;
+        text-align: center;
+        text-decoration: underline;
+    }   
+    .list{         
+        font-size: 2px;   
+        border: 1px solid wheat;         
+    }
+}
 .skillBackground{
     background-color: teal;
 }
@@ -87,20 +101,7 @@
     border-radius: 50px;
     padding: 10px;      
 }
-@media screen and(max-width: 480px){
-    .skillBackground{
-        background-color: teal;
-    }
-    .skillsHead{
-        color: honeydew;
-        text-align: center;
-        text-decoration: underline;
-    }   
-    .list{         
-        font-size: 2px;   
-        border: 1px solid wheat;         
-    }
-}
+
 .projectBackground{
     background-color: seagreen;
 }
