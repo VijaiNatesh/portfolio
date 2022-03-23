@@ -35,7 +35,7 @@
 }
 .aboutContent{    
     font-size: 20px;   
-    text-align: justify;
+    text-align: center;
     color: honeydew;
 }
 .myImage{
@@ -55,7 +55,7 @@
     }
     .aboutContent{    
         font-size: 14px;   
-        text-align: justify;
+        text-align: center;
         color: honeydew;
     }
     .myImage{          
