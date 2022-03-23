@@ -73,7 +73,7 @@
 .projectDisplay{
     display: flex;
 }
-.projectHeader{   
+.projectHeader{
     font-size: 50px;
     text-align: center;
 }
@@ -89,12 +89,19 @@
 }
 .projectLink{
     font-size: 15px;
-    color: honeydew;
     text-decoration: none;
+    color: honeydew;
     border: 2px solid honeydew;
 }
-
-
+.contactDisplay{   
+    margin: 20px;
+    text-align: center;  
+}
+.contact{
+    width: 35px;
+    height: 35px;
+    padding: 70px;     
+}
 
 @media screen and (max-width: 480px) {
     .aboutBackground{
@@ -147,13 +154,13 @@
     .projectDisplay{
         display: flex;
     }
-    .projectHeader{      
-        font-size: 13px;
+    .projectHeader{
+        font-size: 50px;
         text-align: center;
     }
     .projectTitle{
-        margin: 5px;    
-        font-size: 8px;
+        margin: 4px;    
+        font-size: 7px;
         padding: 2px;
     }
     .projectDes{
@@ -163,9 +170,18 @@
     }
     .projectLink{
         font-size: 3px;
-        color: honeydew;
         text-decoration: none;
-        border: 0.5px solid honeydew;
+        color: honeydew;
+        border: 2px solid honeydew;
+    }
+    .contactDisplay{   
+        margin: 4px;
+        text-align: center;  
+    }
+    .contact{
+        width: 7px;
+        height: 7px;
+        padding: 14px;     
     }
 }
 
