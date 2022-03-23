@@ -86,7 +86,7 @@
     }
     .myImage{          
         border-radius: 30%;
-        margin-left: auto;   
+        margin-left: center;   
     }
     .skillBackground{
         background-color: teal;
