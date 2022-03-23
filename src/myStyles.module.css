@@ -97,7 +97,9 @@
     }   
     .list{         
         font-size: 7px;   
-        border: 1px solid wheat;         
+        color: wheat;
+        border: 1px solid wheat;  
+        width: 480px;       
     }
 }
 
