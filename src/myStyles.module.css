@@ -97,12 +97,12 @@
         text-decoration: underline;
     }  
     .listDisplay{       
-        margin: 0;
+        margin: 4px;
         display: flex;
         align-content: center;      
     } 
     .list{         
-        margin-left: 0;  
+        margin-left: 20px;  
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 10px;  
         color: wheat;         
