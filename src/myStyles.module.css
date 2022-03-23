@@ -99,13 +99,9 @@
     .listDisplay{       
         display: flex;      
     }
-    .list{          
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .list{         
         font-size: 2px;   
-        border: 1px solid wheat;  
-        text-align: justify;      
-        border-radius: 13px;
-        padding: 3px;      
+        border: 1px solid wheat;         
     }
 }
 .projectBackground{
