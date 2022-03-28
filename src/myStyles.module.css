@@ -126,7 +126,9 @@
    margin-left: 50%;
    padding-top: 20px;
 }
-
+.navMob{
+    display: none;
+}
 .navTab{   
     text-decoration: none;    
     color: seashell;
@@ -271,9 +273,12 @@
         display: flex;       
     }
     .navOri{
-       margin-left: none;
-       padding-top: 4px;
+       display: none;
     }    
+    .navMob{
+        display: block;
+        margin-left: 50%;
+    }
     .navTab{   
         text-decoration: none;    
         color: seashell;
