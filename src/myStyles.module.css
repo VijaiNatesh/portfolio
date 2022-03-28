@@ -211,13 +211,13 @@
        margin-left: 30%;
     }
      .skill{    
-     max-width: 50%;
+     max-width: 100%;
      }
      .set{
          float: right;
      }
      .progress{
-         width: 100%;
+         width:100%;
      }
     .projectDisplay{
         display: flex;   
