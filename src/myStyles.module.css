@@ -1,187 +1,298 @@
 .container{
     max-width: 100%; 
 }
-.myName{
-    color: teal;
+.homeDisplay{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
-
 .homeContent{
   text-align: center;
-  font-size: 34px;
+  font-size: 50px;   
 }
-@media screen and (max-width: 480px){
-    .homeContent {
-        text-align: center;
-        font-size: 16px;
-    }
+.homeAbout{
+    font-size: 25px;
 }
 .homeIconDisplay{
     display: flex;   
 }
-@media screen and (max-width: 480px){
-    .homeIconDisplay{
-        display: flex; 
-    }
-}
-.aboutBackground{
-    background-color: teal;
-}
 .aboutHead{
-    text-align: center;
-    color: thistle;
+    text-align: center;  
+    font-size: 50px;  
 }
 .aboutDisplay{
-    column-count: 1;    
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+.aboutImage{
+    border-top: 5px solid teal;
+    border-right: 5px solid teal;    
+    border-radius: 30%;
+    width: 30%;
+    height: 50%;    
+    margin-right: 50px;
 }
 .aboutContent{    
-    font-size: 20px;   
-    text-align: center;
-    color: honeydew;
+    font-size: 25px;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;        
 }
+.resume{
+    background-color: teal;
+    width: 25%;    
+    height: 25%;
+    font-size: 35px;
+    color: honeydew;
+    border-radius: 10%;
+}
+
 .myImage{
     border-radius: 30%;
     margin-left: 40%;   
 }
-.skillBackground{
-    background-color: teal;
-}
-.skillsHead{
-    color: honeydew;
+
+.skillsHead{   
     text-align: center;
-    text-decoration: underline;
+    font-size: 50px;    
 }
-.listDisplay{
-    margin: 20px;
-    display: flex;
-    align-content: space-around;
+
+.skillContainer{
+   margin-left: 30%;
 }
-.list{   
-    margin-left: 150px;  
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;   
-    color: wheat;
-    border: 5px solid wheat;  
-    text-align: justify;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50px;
-    padding: 10px;      
-}
-.projectBackground{
-    background-color: teal;
-}
+ .skill{    
+ max-width: 50%;
+ }
+ .set{
+     float: right;
+ }
+ .progress{
+     width: 100%;
+ }
 .projectDisplay{
-    display: flex;
+    display: flex;   
+    border-bottom: 5px solid teal;   
+    border-right: 5px solid teal;
+    border-radius: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 5%;   
 }
 .projectHeader{
     font-size: 50px;
     text-align: center;
 }
-.projectTitle{
-    margin: 20px;    
-    font-size: 30px;
-    padding: 10px;
+
+.projectImage{
+    width: 30%;   
 }
+
 .projectDes{
-    margin-left: 100px;
+    margin: 70px;
     font-size: 25px;
     text-align: justify;
+}
+.projectTitle{  
+    margin-left: 70px; 
+    font-size: 33px;     
 }
 .projectLink{
     font-size: 15px;
     text-decoration: none;
-    color: honeydew;
-    border: 2px solid honeydew;
+   margin-top: 30px;    
+}
+.linkButton{
+    margin-left: 100px;
+    background-color: cyan;
 }
 .contactDisplay{   
     margin: 20px;
     text-align: center;  
+    padding: 20px;    
 }
 .contact{
     width: 35px;
     height: 35px;
-    padding: 70px;     
+    padding: 70px;    
+}
+.navHead{  
+    background-color: teal;    
+    display: flex;
+}
+.navOri{
+   margin-left: 50%;
+   padding-top: 20px;
+}
+
+.navTab{   
+    text-decoration: none;    
+    color: seashell;
+    font-size: x-large;
+   margin: 25px;    
+}
+.navName{
+    color: honeydew;
+}
+.info{   
+    display: flex;
+    margin-left: 20px;
+    background-color: teal;   
+    font-size: 30px;
+    color: honeydew;   
+}
+.infoDetail {
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 480px) {
-    .aboutBackground{
-        background-color: teal;
+    .homeDisplay{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .homeContent{
+      text-align: center;
+      font-size: 10px;   
+    }
+    .homeAbout{
+        font-size: 5px;
+    }
+    .homeIconDisplay{
+        display: flex;   
     }
     .aboutHead{
-        text-align: center;
-        color: thistle;
+        text-align: center;  
+        font-size: 10px;  
     }
     .aboutDisplay{
-        column-count: 1;        
+        display: flex;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .aboutImage{
+        border-top: 1px solid teal;
+        border-right: 1px solid teal;    
+        border-radius: 30%;
+        width: 30%;
+        height: 50%;    
+        margin-right: 10px;
     }
     .aboutContent{    
-        font-size: 14px;   
-        text-align: center;
-        color: honeydew;
+        font-size: 5px;   
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;        
     }
-    .myImage{          
+    .resume{
+        background-color: teal;
+        width: 25%;    
+        height: 25%;
+        font-size: 7px;
+        color: honeydew;
+        border-radius: 10%;
+    }
+    
+    .myImage{
         border-radius: 30%;
-        margin-left: 25%;   
+        margin-left: 40%;   
     }
-    .skillBackground{
-        background-color: teal;
-    }
-    .skillsHead{
-        color: honeydew;
+    
+    .skillsHead{   
         text-align: center;
-        text-decoration: underline;
-    }  
-    .listDisplay{       
-        margin: 4px;
-        display: flex;
-        align-content: center;      
-    } 
-    .list{         
-        margin-left: 20px;  
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 10px;  
-        color: wheat;         
-        border: 1px solid wheat;  
-        text-align: center;
-        width: fit-content;
-        height: auto;
-        border-radius: 50px;
-        padding: 2px;              
+        font-size: 10px;    
     }
-    .projectBackground{
-        background-color: teal;
+    
+    .skillContainer{
+       margin-left: 30%;
     }
+     .skill{    
+     max-width: 50%;
+     }
+     .set{
+         float: right;
+     }
+     .progress{
+         width: 100%;
+     }
     .projectDisplay{
-        display: flex;
+        display: flex;   
+        border-bottom: 1px solid teal;   
+        border-right: 1px solid teal;
+        border-radius: 20%;
+        margin-left: 20%;
+        margin-right: 10%;
+        margin-bottom: 5%;   
     }
     .projectHeader{
-        font-size: 50px;
+        font-size: 10px;
         text-align: center;
     }
-    .projectTitle{
-        margin: 4px;    
-        font-size: 7px;
-        padding: 2px;
+    
+    .projectImage{
+        width: 30%;   
     }
+    
     .projectDes{
-        margin-left: 20px;
-        font-size: 6px;
+        margin: 14px;
+        font-size: 5px;
         text-align: justify;
+    }
+    .projectTitle{  
+        margin-left: 14px; 
+        font-size: 7px;     
     }
     .projectLink{
         font-size: 3px;
         text-decoration: none;
-        color: honeydew;
-        border: 0.5px solid honeydew;
+       margin-top: 6px;    
+    }
+    .linkButton{
+        margin-left: 20px;
+        background-color: cyan;
     }
     .contactDisplay{   
         margin: 4px;
         text-align: center;  
+        padding: 4px;    
     }
     .contact{
-        width: 15px;
-        height: 15px;
-        padding: 14px;     
+        width: 7px;
+        height: 7px;
+        padding: 10px;    
     }
+    .navHead{  
+        background-color: teal;    
+        display: flex;
+    }
+    .navOri{
+       margin-left: 50%;
+       padding-top: 4px;
+    }
+    
+    .navTab{   
+        text-decoration: none;    
+        color: seashell;
+        font-size: x-large;
+       margin: 4px;    
+    }
+    .navName{
+        color: honeydew;
+    }
+    .info{   
+        display: flex;
+        margin-left: 4px;
+        background-color: teal;   
+        font-size: 7px;
+        color: honeydew;   
+    }
+    .infoDetail {
+        margin-left: 20px;
+    }
+    
 }
 

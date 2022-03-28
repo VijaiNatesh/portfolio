@@ -6,24 +6,56 @@ import styles from '../../src/myStyles.module.css'
 function Skills() {
     return (
 
-        <div className ={styles.skillBackground}  >
-        <h1 className = {styles.skillsHead}>Skills</h1>
-            <div className={styles.listDisplay}>
-                <p className={styles.list}>HTML</p>
-                <p className={styles.list}>CSS</p>
-                <p className={styles.list}>JavaScript</p>
+
+
+        <>
+            <h1 className={styles.skillsHead}>Skills</h1>
+            <div className={styles.skillContainer}>
+
+                <h1 >Frontend</h1>
+                <div className={styles.skill}>
+                    <p> HTML <b className={styles.set}>90%</b></p>
+                    <progress className={styles.progress} value="90" max="100"></progress>
+                </div>
+                <div className={styles.skill}>
+                    <p> CSS <b className={styles.set}>70%</b></p>
+                    <progress className={styles.progress} value="70" max="100"></progress>
+                </div>
+                <div className={styles.skill}>
+                    <p> JavaScript <b className={styles.set}>70%</b></p>
+                    <progress className={styles.progress} value="70" max="100"></progress>
+                </div>
+                <div className={styles.skill}>
+                    <p> React <b className={styles.set}>80%</b></p>
+                    <progress className={styles.progress} value="80" max="100"></progress>
+                </div>
             </div>
-            <div className={styles.listDisplay}>
-                <p className={styles.list}>React</p>
-                <p className={styles.list}>Node.js</p>
-                <p className={styles.list}>MongoDB</p>
-                <p className={styles.list}>Express</p>
+
+            <div className={styles.skillContainer} >
+                <h1>Backend</h1>
+                <div className={styles.skill}>
+                    <p> NodeJs <b className={styles.set}>50%</b></p>
+                    <progress className={styles.progress} value="50" max="100"></progress>
+                </div>
+                <div className={styles.skill}>
+                    <p> MongoDB <b className={styles.set}>70%</b></p>
+                    <progress className={styles.progress} value="70" max="100"></progress>
+                </div>
+                <div className={styles.skill}>
+                    <p> Express <b className={styles.set}>70%</b></p>
+                    <progress className={styles.progress} value="70" max="100"></progress>
+                </div>
             </div>
-            <div className={styles.listDisplay}>
-                <p className={styles.list}>Git</p>
-                <p className={styles.list}>MySQL</p>             
-            </div>          
-        </div>
+
+            <div className={styles.skillContainer} >
+                <h1>Database</h1>
+                <div className={styles.skill}>
+                    <p> MySQL <b className={styles.set}>70%</b></p>
+                    <progress className={styles.progress} value="70" max="100"></progress>
+                </div>
+            </div>
+
+        </>
     )
 }
 

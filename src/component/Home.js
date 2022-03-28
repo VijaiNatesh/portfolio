@@ -1,28 +1,24 @@
 import React from 'react'
 import styles from '../../src/myStyles.module.css'
 import gitimage from '../../src/Gitimage.png'
-import resume from '../../src/Resume.jpg'
-import About from './About'
-import Skills from './Skills'
-import Projects from './Projects'
+import image from '../../src/NV.jpg'
+
 
 
 function Home() {
     return (
-        <div className ={styles.container} >
+        <div className={styles.container} >
 
-            <div>
-                <p className={styles.homeContent}>Hi, my name is <br/> <div className ={styles.myName}>Vijayakumar </div> <br/> I'm Full Stack <br/> Developer</p>                
+            <div className={styles.homeDisplay}>
+                <p className={styles.homeContent}><b>Hi, I'am Vijayakumar</b> <br /> Full Stack Developer
+            <br />
+                    <p className={styles.homeAbout}>Passionate about building web applications that are performant, accessible and have a great user experience.</p></p>
+                <img className={styles.myImage} src={image} alt="Vijayakumar" />
             </div>
-
             <div className={styles.homeIconDisplay}>
                 <a href="https://github.com/VijaiNatesh" target="_blank" title="Click to view my GitHub account" rel="noreferrer"><img className={styles.contact} src={gitimage} alt="GitHub" /> </a>
-                <a href="https://drive.google.com/file/d/1kcZ9Uc8enjhkScQEE2PZmeUjzPuwL9t1/view?usp=sharing" target="_blank" title="Click to view my Resume" rel="noreferrer"> <img className={styles.contact} src={resume} alt="resume" /> </a>
-        
+
             </div>
-            <About />     
-            <Skills />   
-            <Projects />   
         </div>
 
     )

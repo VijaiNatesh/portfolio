@@ -4,17 +4,20 @@ import About from './component/About';
 import Skills from './component/Skills';
 import Projects from './component/Projects';
 import Home from './component/Home';
+import Navigation from './component/Navigation';
+import Contact from './component/Contact';
 
 function App() {
   return (
     <div>
-     
-     <BrowserRouter>
-     <Routes>
-     <Route path="/" element = {<Home/>} />
+       <Navigation/>
+     <BrowserRouter>   
+     <Routes>     
+     <Route path="/home" element = {<Home/>} />
        <Route path="/about" element = {<About/>} />
        <Route path="/skills" element = {<Skills/>} />
        <Route path="/projects" element = {<Projects/>} />      
+       <Route path="/contact" element = {<Contact/>} />             
        </Routes>
      </BrowserRouter>
     </div>
