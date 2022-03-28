@@ -6,6 +6,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
+import dropdown from '../../src/dropdown.jpg'
 
 function Navigation() {
     return (
@@ -21,7 +22,8 @@ function Navigation() {
                     <Nav.Link className={styles.navTab} href="#contact">Contact Me</Nav.Link>
                 </Nav>
 
-                <DropdownButton className = {styles.navMob} title = "Dropdown">
+                <DropdownButton className = {styles.navMob} >
+                <img src ={dropdown} alt = "dropdown" />
                     <Dropdown.Item href="#home">Home</Dropdown.Item>
                     <Dropdown.Item href="#about">About</Dropdown.Item>
                     <Dropdown.Item href="#skills">Skills</Dropdown.Item>
