@@ -277,7 +277,7 @@
     }    
     .navMob{
         display: block;
-        margin-left: 50%;
+        float: right;
     }
     .navTab{   
         text-decoration: none;    
