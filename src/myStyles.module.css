@@ -187,7 +187,7 @@
         margin-right: 10px;
     }
     .aboutContent{    
-        font-size: 5px;   
+        font-size: 15px;   
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: justify;        
     }
@@ -202,9 +202,12 @@
     
     .myImage{
         border-radius: 30%;
-        margin-left: 40%;   
+        margin-left: 40%; 
+        margin-right: 20%;  
     }
-    
+    .skillEnd{
+        font-size: 25px;
+    }
     .skillsHead{   
         text-align: center;
         font-size: 25px;    

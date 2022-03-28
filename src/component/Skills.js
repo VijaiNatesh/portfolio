@@ -12,7 +12,7 @@ function Skills() {
             <h1 className={styles.skillsHead}>Skills</h1>
             <div className={styles.skillContainer}>
 
-                <h1 >Frontend</h1>
+                <h1 className = {styles.skillEnd} >Frontend</h1>
                 <div className={styles.skill}>
                     <p> HTML <b className={styles.set}>90%</b></p>
                     <progress className={styles.progress} value="90" max="100"></progress>
@@ -32,7 +32,7 @@ function Skills() {
             </div>
 
             <div className={styles.skillContainer} >
-                <h1>Backend</h1>
+                <h1 className = {styles.skillEnd}>Backend</h1>
                 <div className={styles.skill}>
                     <p> NodeJs <b className={styles.set}>50%</b></p>
                     <progress className={styles.progress} value="50" max="100"></progress>
@@ -48,7 +48,7 @@ function Skills() {
             </div>
 
             <div className={styles.skillContainer} >
-                <h1>Database</h1>
+                <h1 className = {styles.skillEnd}>Database</h1>
                 <div className={styles.skill}>
                     <p> MySQL <b className={styles.set}>70%</b></p>
                     <progress className={styles.progress} value="70" max="100"></progress>
