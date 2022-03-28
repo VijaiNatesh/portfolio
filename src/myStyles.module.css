@@ -278,6 +278,7 @@
     .navMob{
         display: block;
         margin-left: 40%;
+        background-color: honeydew;
     }
     .navTab{   
         text-decoration: none;    
