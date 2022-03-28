@@ -23,11 +23,11 @@ function Navigation() {
 
                 <DropdownButton className = {styles.navMob} title = "▼" >
              
-                    <Dropdown.Item href="#home">Home</Dropdown.Item>
-                    <Dropdown.Item href="#about">About</Dropdown.Item>
-                    <Dropdown.Item href="#skills">Skills</Dropdown.Item>
-                    <Dropdown.Item href="#projectss">Projects</Dropdown.Item>
-                    <Dropdown.Item href="#contact">Contact Me</Dropdown.Item>                    
+                    <Dropdown.Item className={styles.navTab} href="#home">Home</Dropdown.Item><br/>
+                    <Dropdown.Item className={styles.navTab} href="#about">About</Dropdown.Item><br/>
+                    <Dropdown.Item className={styles.navTab} href="#skills">Skills</Dropdown.Item><br/>
+                    <Dropdown.Item className={styles.navTab}href="#projectss">Projects</Dropdown.Item><br/>
+                    <Dropdown.Item className={styles.navTab} href="#contact">Contact Me</Dropdown.Item>                    
                 </DropdownButton>
 
             </div >

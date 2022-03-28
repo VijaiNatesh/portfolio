@@ -123,12 +123,11 @@
     display: flex;
 }
 .navOri{   
-    display: none;
    margin-left: 50%;
    padding-top: 20px;
 }
 .navMob{
-    display: block;
+    display: none;
 }
 .navTab{   
     text-decoration: none;    
@@ -284,8 +283,7 @@
         text-decoration: none;    
         color: seashell;
         font-size: 4px;
-       margin: 4px; 
-       display: none;   
+       margin: 4px;        
     }
     .navName{
         color: honeydew;
