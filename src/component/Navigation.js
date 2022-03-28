@@ -11,7 +11,7 @@ function Navigation() {
     return (
         <>
         <div className={styles.navHead}>
-        <h1 className = {styles.navName}>Vijayakumar</h1>                  
+        <p className = {styles.navName}>Vijayakumar</p>                  
                
                     <Nav className={styles.navOri}>
                         <Nav.Link className={styles.navTab} href="#home">Home</Nav.Link>

@@ -135,6 +135,7 @@
 }
 .navName{
     color: honeydew;
+    font-size: 35px;
 }
 .info{   
     display: flex;
@@ -147,10 +148,7 @@
     margin-left: 100px;
 }
 
-@media screen and (max-width: 480px) {
-    .container{
-        width: fit-content;
-    }
+@media screen and (max-width: 480px) {    
     .homeDisplay{
         display: flex;
         margin-top: 30px;
@@ -289,7 +287,7 @@
     }
     .navName{
         color: honeydew;
-        font-size: small;
+        font-size: 20px;;
     }
     .info{   
         display: flex;
