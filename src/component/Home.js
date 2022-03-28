@@ -10,7 +10,7 @@ function Home() {
         <div className={styles.container} >
 
             <div className={styles.homeDisplay}>
-                <p className={styles.homeContent}><b>Hi, I'am Vijayakumar</b> <br /> <p className={styles.homeAbout}>Full Stack Developer
+                <p className={styles.homeContent}><b>Hi, I'am Vijayakumar</b> <br /> <p className={styles.homeAbout}>Full Stack Developer,
             <br />
                     Passionate about building web applications that are performant, accessible and have a great user experience.</p></p>
                 <img className={styles.myImage} src={image} alt="Vijayakumar" />
