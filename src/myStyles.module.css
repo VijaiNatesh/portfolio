@@ -123,11 +123,12 @@
     display: flex;
 }
 .navOri{   
+    display: none;
    margin-left: 50%;
    padding-top: 20px;
 }
 .navMob{
-    display: none;
+    display: block;
 }
 .navTab{   
     text-decoration: none;    

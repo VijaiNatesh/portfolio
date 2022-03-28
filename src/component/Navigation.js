@@ -6,7 +6,6 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
-import dropdown from '../../src/dropdown.jpg'
 
 function Navigation() {
     return (
