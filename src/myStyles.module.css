@@ -267,11 +267,10 @@
     }
     .navHead{  
         background-color: teal;    
-        display: flex;
-       max-width: 480px;
+        display: flex;       
     }
     .navOri{
-       margin-left: 50%;
+       margin-left: none;
        padding-top: 4px;
     }
     
