@@ -169,7 +169,7 @@
     }
     .aboutHead{
         text-align: center;  
-        font-size: 10px;  
+        font-size: 25px;  
     }
     .aboutDisplay{
         display: flex;
@@ -207,7 +207,7 @@
     
     .skillsHead{   
         text-align: center;
-        font-size: 10px;    
+        font-size: 25px;    
     }
     
     .skillContainer{
@@ -232,7 +232,7 @@
         margin-bottom: 5%;   
     }
     .projectHeader{
-        font-size: 10px;
+        font-size: 25px;
         text-align: center;
     }
     
