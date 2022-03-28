@@ -177,12 +177,7 @@
         margin-bottom: 20px;
     }
     .aboutImage{
-        border-top: 1px solid teal;
-        border-right: 1px solid teal;    
-        border-radius: 30%;
-        width: 30%;
-        height: 50%;    
-        margin-right: 10px;
+        display: none;
     }
     .aboutContent{    
         font-size: 13px;   
