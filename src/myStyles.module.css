@@ -280,10 +280,12 @@
         text-decoration: none;    
         color: seashell;
         font-size: 4px;
-       margin: 4px;    
+       margin: 4px; 
+       display: none;   
     }
     .navName{
         color: honeydew;
+        font-size: small;
     }
     .info{   
         display: flex;
