@@ -268,7 +268,7 @@
     .navHead{  
         background-color: teal;    
         display: flex;
-        width: fit-content;
+       max-width: 480px;
     }
     .navOri{
        margin-left: 50%;
