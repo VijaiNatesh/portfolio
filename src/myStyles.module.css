@@ -158,12 +158,9 @@
     .homeContent{
       text-align: center;
       font-size: 20px;   
-    }
-    .homeDesgn{
-        font-size: 15px;
-    }
+    }    
     .homeAbout{
-        font-size: 5px;
+        font-size: 10px;
     }
     .homeIconDisplay{
         display: flex;   
