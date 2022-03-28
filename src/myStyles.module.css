@@ -154,8 +154,8 @@
     .homeDisplay{
         display: flex;
         margin-top: 30px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .homeContent{
       text-align: center;
@@ -275,12 +275,11 @@
     .navOri{
        margin-left: none;
        padding-top: 4px;
-    }
-    
+    }    
     .navTab{   
         text-decoration: none;    
         color: seashell;
-        font-size: x-large;
+        font-size: 4px;
        margin: 4px;    
     }
     .navName{
