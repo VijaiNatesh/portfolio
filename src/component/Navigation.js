@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, DropdownButton, Dropdown, Item} from 'react-bootstrap'
+import { Nav, DropdownButton, Dropdown} from 'react-bootstrap'
 import styles from '../../src/myStyles.module.css'
 import Home from './Home';
 import About from './About';
@@ -22,11 +22,11 @@ function Navigation() {
                 </Nav>
 
                 <DropdownButton className = {styles.navMob} title = "Dropdown">
-                    <Dropdown.Item href="#/home">Home</Dropdown.Item>
-                    <Dropdown.Item href="#/about">About</Dropdown.Item>
-                    <Dropdown.Item href="#/skills">Skills</Dropdown.Item>
-                    <Dropdown.Item href="#/projectss">Projects</Dropdown.Item>
-                    <Dropdown.Item href="#/contact">Contact Me</Dropdown.Item>                    
+                    <Dropdown.Item href="#home">Home</Dropdown.Item>
+                    <Dropdown.Item href="#about">About</Dropdown.Item>
+                    <Dropdown.Item href="#skills">Skills</Dropdown.Item>
+                    <Dropdown.Item href="#projectss">Projects</Dropdown.Item>
+                    <Dropdown.Item href="#contact">Contact Me</Dropdown.Item>                    
                 </DropdownButton>
 
             </div >
