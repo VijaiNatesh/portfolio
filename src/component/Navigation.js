@@ -22,8 +22,8 @@ function Navigation() {
                     <Nav.Link className={styles.navTab} href="#contact">Contact Me</Nav.Link>
                 </Nav>
 
-                <DropdownButton className = {styles.navMob} >
-                <img src ={dropdown} alt = "dropdown" />
+                <DropdownButton className = {styles.navMob} title = "▼" >
+             
                     <Dropdown.Item href="#home">Home</Dropdown.Item>
                     <Dropdown.Item href="#about">About</Dropdown.Item>
                     <Dropdown.Item href="#skills">Skills</Dropdown.Item>
