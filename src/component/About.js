@@ -7,7 +7,7 @@ function About() {
         <div >
             <h1 className={styles.aboutHead}>About Me</h1>
             <div className={styles.aboutDisplay}>
-                <img className={styles.aboutImage} src={image} alt="About Me" />
+                <img className={styles.aboutImage} src={image} alt="About Me" /><br/>
                 <div className = {styles.aboutContent} >
                 <p>A Full Stack Developer
            Passionate about building web applications that are performant, accessible and have a great user experience.</p>
