@@ -3,9 +3,9 @@
 }
 .homeDisplay{
     display: flex;
-    margin-top: 150px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 .homeContent{
   text-align: center;
@@ -15,7 +15,7 @@
     font-size: 25px;
 }
 .homeIconDisplay{
-    display: flex;   
+    display: flex;      
 }
 .aboutHead{
     text-align: center;  
@@ -51,8 +51,11 @@
 }
 
 .myImage{
-    border-radius: 30%;
-    margin-left: 40%;   
+    border-radius: 50%;
+    margin-left: 20%;   
+    border: 5px solid teal;
+    width: 50%;
+    height: 70%;
 }
 
 .skillsHead{   
@@ -77,7 +80,7 @@
     border-bottom: 5px solid teal;   
     border-right: 5px solid teal;
     border-radius: 20%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;   
 }
@@ -108,15 +111,17 @@
     margin-left: 100px;
     background-color: cyan;
 }
-.contactDisplay{   
-    margin: 20px;
+.contactDisplay{      
     text-align: center;  
     padding: 20px;    
 }
 .contact{
+    margin-left: 500px;
     width: 35px;
     height: 35px;
-    padding: 70px;    
+    border-bottom: 5px solid teal;    
+    border-left: 5px solid teal; 
+    border-radius: 30%;       
 }
 .navHead{  
     background-color: teal;    
