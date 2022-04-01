@@ -277,6 +277,7 @@
         padding: 4px;    
     }
     .contact{
+        float: left;
         width: 10px;
         height: 10px;
         padding: 10px;    
