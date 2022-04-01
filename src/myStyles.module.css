@@ -16,6 +16,7 @@
 }
 .homeIconDisplay{
     display: flex;      
+    margin-left: 500px;
 }
 .aboutHead{
     text-align: center;  
@@ -115,8 +116,7 @@
     text-align: center;  
     padding: 20px;    
 }
-.contact{
-    margin-left: 500px;
+.contact{   
     width: 35px;
     height: 35px;
     border-bottom: 5px solid teal;    
@@ -172,6 +172,7 @@
         margin-top: 0;
     }
     .homeIconDisplay{
+        margin-left: 20px;
         display: flex;   
     }
     .aboutHead{
@@ -269,17 +270,11 @@
         text-align: center;  
         padding: 4px;    
     }
-    .contact{
-        margin-left: 20px;
+    .contact{        
         width: 10px;
         height: 10px;
         padding: 10px;    
-    }
-    .contact1{
-        width: 10px;
-        height: 10px;
-        padding: 10px;   
-    }
+    }   
     .navHead{  
         background-color: teal;    
         display: flex;       
