@@ -123,6 +123,14 @@
     border-left: 5px solid teal; 
     border-radius: 30%;       
 }
+.contact1{
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    border-bottom: 5px solid teal;    
+    border-left: 5px solid teal; 
+    border-radius: 30%;       
+}
 .navHead{  
     background-color: teal;    
     display: flex;
@@ -272,6 +280,11 @@
         width: 10px;
         height: 10px;
         padding: 10px;    
+    }
+    .contact1{
+        width: 10px;
+        height: 10px;
+        padding: 10px;   
     }
     .navHead{  
         background-color: teal;    
