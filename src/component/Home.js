@@ -8,7 +8,7 @@ import LinkedIn from '../../src/linkedin.png'
 
 function Home() {
     return (
-        <div className={styles.container} >
+        <div>
 
             <div className={styles.homeDisplay}>
                 <p className={styles.homeContent}><b>Hi, I'am Vijayakumar</b> <br /> <p className={styles.homeAbout}>Full Stack Developer,

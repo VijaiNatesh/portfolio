@@ -1,59 +1,48 @@
-.container{
-    max-width: 100%; 
-}
+@media screen and (min-width: 1008px){
 .homeDisplay{
     display: flex;
-    margin-top: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .homeContent{
   text-align: center;
-  font-size: 50px;   
+  font-size: 35px;   
 }
 .homeAbout{
     font-size: 25px;
 }
 .homeIconDisplay{
     display: flex;      
-    margin-left: 500px;
+    margin-left: 25%;
 }
 .aboutHead{
     text-align: center;  
-    font-size: 50px;  
+    font-size: 50px;     
 }
-.aboutDisplay{
-    display: flex;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 250px;
-    margin-bottom: 100px;
+.aboutDisplay{   
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.aboutImage{
-    border-top: 5px solid teal;
-    border-right: 5px solid teal;    
-    border-radius: 30%;
-    width: 30%;
-    height: 50%;    
-    margin-right: 50px;
-}
-.aboutContent{    
+
+.aboutContent{     
     font-size: 25px;   
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;        
 }
 .resume{
     background-color: teal;
-    width: 25%;    
-    height: 25%;
-    font-size: 35px;
+    width: 10%;    
+    height: 10%;
+    font-size: 15px;
     color: honeydew;
     border-radius: 10%;
 }
 
 .myImage{
     border-radius: 50%;
-    margin-left: 20%;   
+    margin-left: 10%;   
     border: 5px solid teal;
     width: 50%;
     height: 70%;
@@ -65,7 +54,7 @@
 }
 
 .skillContainer{
-   margin-left: 30%;
+   margin-left: 15%;
 }
  .skill{    
  max-width: 50%;
@@ -77,13 +66,14 @@
      width: 100%;
  }
 .projectDisplay{
-    display: flex;   
-    border-bottom: 5px solid teal;   
-    border-right: 5px solid teal;
-    border-radius: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;   
+    width: 50%;    
+    border: 5px solid slateblue;   
+    border-radius: 10%;
+    margin-left: 20%;   
+    margin-bottom: 5%;  
+    display: flex;
+    background-color: slateblue;
+    
 }
 .projectHeader{
     font-size: 50px;
@@ -91,26 +81,29 @@
 }
 
 .projectImage{
-    width: 30%;   
+    width: 20%;     
+    height: auto;  
+    padding: 2%;
 }
 
 .projectDes{
-    margin: 70px;
+    margin-left:2%;
+    margin-top:1%;
     font-size: 25px;
     text-align: justify;
 }
 .projectTitle{  
-    margin-left: 70px; 
-    font-size: 33px;     
+    margin-left: 5%; 
+    font-size: 33px;    
 }
-.projectLink{
-    font-size: 15px;
-    text-decoration: none;
-   margin-top: 30px;    
+.projectLink{    
+    text-decoration: none;     
 }
 .linkButton{
-    margin-left: 100px;
-    background-color: cyan;
+    margin-left: 2%;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-style: italic;
 }
 .contactDisplay{      
     text-align: center;  
@@ -124,191 +117,311 @@
     border-left: 5px solid teal; 
     border-radius: 30%;       
 }
+.navbck{
+    background-color:teal;
+}
+.navHead{    
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 25px;
+    color: wheat;
+}
 
-.navHead{  
-    background-color: teal;    
-    display: flex;
-}
-.navOri{   
-   margin-left: 50%;
-   padding-top: 20px;
-}
 .navMob{
     display: none;
 }
-.navTab{   
-    text-decoration: none;    
-    color: seashell;
-    font-size: x-large;
-   margin: 25px;    
-}
-.navName{
-    color: honeydew;
-    font-size: 35px;
-}
-.info{   
-    display: flex;
-    margin-left: 20px;
+
+.info{      
+    display: flex;    
     background-color: teal;   
-    font-size: 30px;
+    font-size: 20px;
     color: honeydew;   
-}
-.infoDetail {
-    margin-left: 100px;
+    text-align: center;
 }
 
-@media screen and (max-width: 480px) {    
+.infoDetail {
+    margin-left:10%;
+}
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px){
     .homeDisplay{
         display: flex;
-        margin-top: 30px;        
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
-    .homeContent{        
+    .homeContent{
       text-align: center;
-      font-size: 20px;   
-    }    
+      font-size: 30px;   
+    }
     .homeAbout{
-        font-size: 10px;
-        margin-top: 0;
+        font-size: 20px;
     }
     .homeIconDisplay{
-        margin-left: 20px;
-        display: flex;   
+        display: flex;      
+        margin-left: 25%;
     }
     .aboutHead{
         text-align: center;  
-        font-size: 25px;  
+        font-size: 35px;     
     }
-    .aboutDisplay{        
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-    .aboutImage{
-        display: none;
-    }
-    .aboutContent{    
-        font-size: 13px;   
+    .aboutDisplay{   
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }    
+    .aboutContent{     
+        font-size: 20px;   
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-align: justify;        
     }
     .resume{
         background-color: teal;
-        width: 15%;    
-        height: 15%;
-        font-size: 7px;
+        width: 10%;    
+        height: 10%;
+        font-size: 10px;
         color: honeydew;
         border-radius: 10%;
-    }
-    
+    }    
     .myImage{
-        border-radius: 30%;
-        margin-left: 20%; 
-        margin-right: 20%;  
-        width: 100px;
-    }
-    .skillEnd{
-        font-size: 15px;
-    }
+        border-radius: 50%;
+        margin-left: 10%;   
+        border: 5px solid teal;
+        width: 50%;
+        height: 70%;
+    }    
     .skillsHead{   
         text-align: center;
-        font-size: 25px;    
-    }
-    
+        font-size: 35px;    
+    }    
     .skillContainer{
        margin-left: 15%;
-       margin-right: 15%;
+       width: 100%;
     }
      .skill{    
-     max-width: 100%;
+     max-width: 50%;
+     }
+     .skillEnd{
+         font-size: 15px;
      }
      .set{
          float: right;
      }
      .progress{
-         width:100%;
+         width: 100%;
      }
     .projectDisplay{
-        display: flex;   
-        border-bottom: 1px solid teal;   
-        border-right: 1px solid teal;
-        border-radius: 20%;
-        margin-left: 20%;
-        margin-right: 10%;
-        margin-bottom: 5%;   
+        width: 50%;    
+        border: 5px solid slateblue;   
+        border-radius: 10%;
+        margin-left: 20%;   
+        margin-bottom: 5%;  
+        display: flex;
+        background-color: slateblue;        
+    }
+    .projectHeader{
+        font-size: 35px;
+        text-align: center;
+    }    
+    .projectImage{
+        width: 20%;     
+        height: auto;  
+        padding: 2%;
+    }    
+    .projectDes{
+        margin-left:2%;
+        margin-top:1%;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .projectTitle{  
+        margin-left: 5%; 
+        font-size: 25px;    
+    }
+    .projectLink{    
+        text-decoration: none;     
+    }
+    .linkButton{
+        margin-left: 2%;
+        background-color: whitesmoke;
+        font-size: 13px;
+        font-style: italic;
+    }
+    .contactDisplay{      
+        text-align: center;  
+        padding: 20px;    
+    }
+    .contact{   
+        margin-left: 30px;
+        width: 25px;
+        height: 25px;
+        border-bottom: 5px solid teal;    
+        border-left: 5px solid teal; 
+        border-radius: 30%;       
+    }
+    .navbck{
+        background-color:teal;
+    }
+    .navHead{    
+        text-decoration: none;
+        margin-left: 5%;
+        font-size: 25px;
+        color: wheat;
+    }    
+    .navMob{
+        display: none;
+    }    
+    .info{      
+        display: flex;    
+        background-color: teal;   
+        font-size: 15px;
+        color: honeydew;   
+        text-align: center;
+    }    
+    .infoDetail {
+        margin-left:10%;
+    }   
+}
+
+@media screen and  (max-width: 640px){
+    .homeDisplay{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .homeContent{
+      text-align: center;
+      font-size: 20px;   
+    }
+    .homeAbout{
+        font-size: 15px;
+    }
+    .homeIconDisplay{
+        display: flex;      
+        margin-left: 25%;
+    }
+    .aboutHead{
+        text-align: center;  
+        font-size: 25px;     
+    }
+    .aboutDisplay{   
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }    
+    .aboutContent{     
+        font-size: 15px;   
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;        
+    }
+    .resume{
+        background-color: teal;
+        width: 22%;    
+        height: 10%;
+        font-size: 9px;
+        color: honeydew
+        
+    }    
+    .myImage{
+        border-radius: 50%;
+        margin-left: 10%;   
+        border: 5px solid teal;
+        width: 50%;
+        height: 50%;
+    }    
+    .skillsHead{   
+        text-align: center;
+        font-size: 25px;    
+    }    
+    .skillContainer{
+       margin-left: 25%;
+       width: 100%
+    }
+    .skillEnd{
+        font-size: 18px;
+    }
+     .skill{    
+     max-width: 50%;
+     }
+     .set{
+         float: right;
+     }
+     .progress{
+         width: 100%;
+     }
+    .projectDisplay{
+        width: 50%;    
+        border: 5px solid slateblue;   
+        border-radius: 10%;
+        margin-left: 20%;   
+        margin-bottom: 5%;  
+        display: flex;
+        background-color: slateblue;        
     }
     .projectHeader{
         font-size: 25px;
         text-align: center;
-    }
-    
+    }    
     .projectImage{
-        width: 30%;   
-    }
-    
+        width: 20%;     
+        height: auto;  
+        padding: 2%;
+    }    
     .projectDes{
-        margin: 14px;
-        font-size: 5px;
+        margin-left:2%;
+        margin-top:1%;
+        font-size: 15px;
         text-align: justify;
     }
     .projectTitle{  
-        margin-left: 14px; 
-        font-size: 7px;     
+        margin-left: 5%; 
+        font-size: 15px;    
     }
-    .projectLink{
-        font-size: 3px;
-        text-decoration: none;
-       margin-top: 6px;    
+    .projectLink{    
+        text-decoration: none;     
     }
     .linkButton{
-        margin-left: 20px;
-        background-color: cyan;
+        margin-left: 2%;
+        background-color: whitesmoke;
+        font-size: 10px;
+        font-style: italic;
     }
-    .contactDisplay{   
-        margin: 4px;
+    .contactDisplay{      
         text-align: center;  
-        padding: 4px;    
+        padding: 20px;    
     }
-    .contact{     
-        margin-left: 5px;   
-        width: 10px;
-        height: 10px;
-        padding: 10px;    
-    }   
-    .navHead{  
-        background-color: teal;    
-        display: flex;       
+    .contact{   
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+        border-bottom: 2px solid teal;    
+        border-left: 2px solid teal; 
+        border-radius: 30%;       
     }
-    .navOri{
-       display: none;
+    .navbck{
+        background-color:teal;
+    }
+    .navHead{    
+        text-decoration: none;
+        margin-left: 5%;
+        font-size: 15px;
+        color: wheat;
     }    
     .navMob{
-        display: block;
-        margin-left: 40%;               
-    }
-    .navTab{   
-        text-decoration: none;    
-        color: red;
-        font-size: 15px;
-       margin: 4px;  
-       background-color: lavender;      
-    }
-    .navName{
-        color: honeydew;
-        font-size: 20px;;
-    }
-    .info{   
-        display: flex;
-        margin-left: 4px;
+        display: none;
+    }    
+    .info{      
+        display: flex;    
         background-color: teal;   
-        font-size: 7px;
+        font-size: 10px;
         color: honeydew;   
-    }
+        text-align: center;
+    }    
     .infoDetail {
-        margin-left: 20px;
-    }
-    
+        margin-left:10%;
+    }   
 }
+
 

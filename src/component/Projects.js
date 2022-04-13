@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../src/myStyles.module.css'
 import inventory from '../../src/inventory.jpg'
 import stumen from '../../src/studentmentor.jpg'
-import reset from '../../src/reset.jpg'
+import pictagram from '../../src/pictagramLogo.jpg'
 import ecommerce from '../../src/ecommerce.png'
 
 function Projects() {
@@ -32,12 +32,12 @@ function Projects() {
 
             <div className={styles.projectDisplay}>
 
-                <img className={styles.projectImage} src={reset} alt="user authentication" /> <br />
-                <div className={styles.projectDes}> <b className={styles.projectTitle}> RESET PASSWORD </b>
-                    <p> Reset Password Application for user authentication  </p>
-                    <a className={styles.projectLink} href="https://password-reset-vj.netlify.app/" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Live</button></a>
-                    <a className={styles.projectLink} href="https://github.com/VijaiNatesh/password-reset-frontend" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Frontend Code</button></a>
-                    <a className={styles.projectLink} href="https://github.com/VijaiNatesh/password-reset-backend" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Backend Code</button></a>
+                <img className={styles.projectImage} src={pictagram} alt="pictagram Logo" /> <br />
+                <div className={styles.projectDes}> <b className={styles.projectTitle}>PICTAGRAM </b>
+                    <p> Picture Uploading Application </p>
+                    <a className={styles.projectLink} href="https://pictagram-vj.netlify.app/" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Live</button></a>
+                    <a className={styles.projectLink} href="https://github.com/VijaiNatesh/pictagram_frontend" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Frontend Code</button></a>
+                    <a className={styles.projectLink} href="https://github.com/VijaiNatesh/pictagram_backend" target="_blank" rel="noreferrer"><button className={styles.linkButton}>Backend Code</button></a>
                 </div>
             </div>
 
