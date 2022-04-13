@@ -16,7 +16,7 @@ function About() {
                 Now, I'm seeking an opportunity in an organization to expose my skills and to contribute the organization's success.
            
                 Outside of work I love playing cricket, watching cricket and being outdoors.</p>
-                <a href="https://drive.google.com/file/d/1kcZ9Uc8enjhkScQEE2PZmeUjzPuwL9t1/view?usp=sharing" target="_blank" title="Click to view my Resume" rel="noreferrer"><button className={styles.resume}>Resume</button> </a>
+                <a href="https://drive.google.com/file/d/1Tv_smUJV8ZYOtdNF0cXZ55nuh_XZLQ7E/view?usp=sharing" target="_blank" title="Click to view my Resume" rel="noreferrer"><button className={styles.resume}>Resume</button> </a>
                 </div>
             </div>
         </div>
